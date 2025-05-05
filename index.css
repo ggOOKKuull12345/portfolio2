@@ -199,3 +199,91 @@ button:hover{
     align-items: center;
     justify-content: center;
 }
+/* Responsive for tablets and smaller */
+@media (max-width: 1024px) {
+  .id, .box2 {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .image, .myimg {
+    width: 80vw;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .row1, .row2 {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .row2 {
+    padding: 20px;
+  }
+
+  .projects h5 {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .seeallbo {
+    width: 80%;
+  }
+
+  .head ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .head ul li {
+    margin: 10px;
+  }
+
+  .head {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
+
+/* Responsive for small mobile screens */
+@media (max-width: 600px) {
+  .contant h1 {
+    font-size: 20px;
+  }
+
+  .contant p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .skills h1, .about h1, .projects h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .button button {
+    width: 100%;
+  }
+
+  .row1 img, .row2 img {
+    height: 100px;
+  }
+
+  .myimg {
+    width: 90vw;
+  }
+}
